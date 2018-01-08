@@ -1,0 +1,274 @@
+#!/bin/bash
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-29T12:00:00.0+02:00 \
+# 	--title="[Openpony] Bienveillance mon cul" \
+# 	/srv/www/pses/archives/2017/openpony_bienveillance-mon-cul.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-29T13:00:00.0+02:00 \
+# 	--title="[Xenthys] Certificats numériques et autorités de certification : de quoi s’agit-il  ?" \
+# 	/srv/www/pses/archives/2017/xenthys_certificats-numeriques-autorites-certifications.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-29T14:00:00.0+02:00 \
+# 	--title="[aeris] Comment powned une application bancaire en 30 min" \
+# 	/srv/www/pses/archives/2017/aeris_powned-application-bancaire.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-29T15:00:00.0+02:00 \
+# 	--title="[Drapher-Epimae] Auto-construire une maison solaire autonome bioclimatique : c’est possible, on l’a fait" \
+# 	/srv/www/pses/archives/2017/.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-29T16:00:00.0+02:00 \
+# 	--title="[SySt] Publicité et surveillance publicitaire en ligne : un combat à gagner" \
+# 	/srv/www/pses/archives/2017/syst_publicite-surveillance-en-ligne.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-29T17:00:00.0+02:00 \
+# 	--title="[Liot] Réalisation de photos libres pour Wikipédia" \
+# 	/srv/www/pses/archives/2017/liot_realisation-photos-libres-wikipedia.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-29T18:00:00.0+02:00 \
+# 	--title="[Okhin] Making datalove for fun and … profit ?" \
+# 	/srv/www/pses/archives/2017/okhin_make-datalove-fun-profit.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-29T19:00:00.0+02:00 \
+# 	--title="[gapz] Surveillance et cryptographie: peut-on faire confiance aux courbes elliptiques  ?" \
+# 	/srv/www/pses/archives/2017/gapz_surveillance-cryptographie-confiance-courbes-elliptiques.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-29T20:00:00.0+02:00 \
+# 	--title="[Pascal Nicolle] L’ouverture des données publiques des concertations et débats : un enjeu démocratique" \
+# 	/srv/www/pses/archives/2017/pascal-nicolle_ouverture-donnees-publiques-concertations-debats.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-30T10:00:00.0+02:00 \
+# 	--title="[Pauline Iogna] Le métier de développeur" \
+# 	/srv/www/pses/archives/2017/pauline-iogna_metier-developpeur.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-30T11:00:00.0+02:00 \
+# 	--title="[Thierry Stoehr] Orgmode : tout faire en mode texte" \
+# 	/srv/www/pses/archives/2017/thierry-stoehr_orgmode-tout-faire-en-mode-texte.webm
+ PYTHONPATH=. python bin/youtube-upload \
+ 	--default-language=fr \
+ 	--default-audio-language=fr \
+ 	--playlist=2017 \
+ 	--recording-date=2017-06-30T12:00:00.0+02:00 \
+ 	--title="[Audrey Jougla] La face cachée de l’expérimentation animale" \
+ 	/srv/www/pses/archives/2017/audrey-jougla_face-cachee-experimentation-animale.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-30T13:00:00.0+02:00 \
+# 	--title="[piks3l] Lie to me — cliquer, c’est déjà accepter" \
+# 	/srv/www/pses/archives/2017/piks3l_lie-to-me-cliquer-deja-accepter.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-30T14:00:00.0+02:00 \
+# 	--title="[Liot] Montage vidéo libre" \
+# 	/srv/www/pses/archives/2017/.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-30T15:00:00.0+02:00 \
+# 	--title="[Anthony Masure] Back Office, une nouvelle revue de recherche entre design graphique et pratiques numériques" \
+# 	/srv/www/pses/archives/2017/anthony-masure_back-office-nouvelle-revue-recherche.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-30T16:00:00.0+02:00 \
+# 	--title="[Shaft] DNS et vie privée" \
+# 	/srv/www/pses/archives/2017/shaft_dns-vie-privee.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-30T17:00:00.0+02:00 \
+# 	--title="[pbondoer] CryptPad, l’éditeur collaboratif chiffré" \
+# 	/srv/www/pses/archives/2017/pbondoer_cryptpad-editeur-collaboratif-chiffre.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-30T18:00:00.0+02:00 \
+# 	--title="[Tristan Nitot] Cozy V3 - Reprendre la main sur nos données personnelles" \
+# 	/srv/www/pses/archives/2017/tristan-nitot_cozy-reprendre-main-donnees-personnelles.webm
+PYTHONPATH=. python bin/youtube-upload \
+	--default-language=fr \
+	--default-audio-language=fr \
+	--playlist=2017 \
+	--recording-date=2017-06-30T19:00:00.0+02:00 \
+	--title="[Nirem] Témoignage d’un atypique, ancien de l’administration" \
+	/srv/www/pses/archives/2017/nirem_temoignage-atypique-administration.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-06-30T20:00:00.0+02:00 \
+# 	--title="[Malicia] La face cachée d’Internet : saisissons-nous vraiment les enjeux du numérique  ?" \
+# 	/srv/www/pses/archives/2017/malicia_face-cachee-internet-enjeux-numeriques.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-01T10:00:00.0+02:00 \
+# 	--title="[Sangokuss] Framinetest, détournons le bac à sable !" \
+# 	/srv/www/pses/archives/2017/sangokuss_framinetest-detournons-bac-sable.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-01T11:00:00.0+02:00 \
+# 	--title="[Winael] IoT, Fog Computing et Objets-ouverts-aux-applications, Comment rendre les objets connectés un peu plus intelligents" \
+# 	/srv/www/pses/archives/2017/winael_iot-fog-computing.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-01T12:00:00.0+02:00 \
+# 	--title="[Aleks & ljf] Construire l’Internet Du Futur™ en contribuant à Yunohost" \
+# 	/srv/www/pses/archives/2017/aleks-ljf_internet-futur-yunohost.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-01T13:00:00.0+02:00 \
+# 	--title="[Laurent Chemla] Caliopen, pour aller plus loin ensemble" \
+# 	/srv/www/pses/archives/2017/laurent-chemla_caliopen-aller-plus-loin-ensemble.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-01T14:00:00.0+02:00 \
+# 	--title="[Daboloskov] Les Daocraties : une nouvelle forme de gouvernance" \
+# 	/srv/www/pses/archives/2017/daboloskov_daocraties-nouvelle-forme-gouvernance.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-01T15:00:00.0+02:00 \
+# 	--title="[Manu] Wikidébats, une encyclopédie de débats" \
+# 	/srv/www/pses/archives/2017/manu_wikidebat-encyclopedie-debats.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-01T16:00:00.0+02:00 \
+# 	--title="[La Quadrature du Net (Agnès, Arthur)] ePrivacy, le GDPR, tout ce que vous avez toujours voulu savoir sur l’UE et les données personnelles" \
+# 	/srv/www/pses/archives/2017/agnes-arthur_eprivacy-gpdr.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-01T17:00:00.0+02:00 \
+# 	--title="[Exégètes Amateurs] Présentation des Exégètes Amateurs" \
+# 	/srv/www/pses/archives/2017/exegetes-amateurs.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-01T18:00:00.0+02:00 \
+# 	--title="[Projet Arcadie (Tris)] La petite corruption du quotidien" \
+# 	/srv/www/pses/archives/2017/tris_petite-corruption-quotidien.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-01T19:00:00.0+02:00 \
+# 	--title="[Thierry Stoehr] Il faut interdire le format papier" \
+# 	/srv/www/pses/archives/2017/thierry-stoehr_interdire-format-papier.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-01T20:00:00.0+02:00 \
+# 	--title="[Malicia] Le sexe à l’heure du numérique" \
+# 	/srv/www/pses/archives/2017/malicia_sexe-heure-numerique.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-02T10:00:00.0+02:00 \
+# 	--title="[Olivier Blond] Capteurs citoyens de pollution de l’air" \
+# 	/srv/www/pses/archives/2017/olivier-blond_capteurs-citoyens-pollution-air.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-02T11:00:00.0+02:00 \
+# 	--title="[Genma] 4 ans de Degooglisons, c’est quoi la suite ?" \
+# 	/srv/www/pses/archives/2017/genma_degooglisons-suite.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-02T12:00:00.0+02:00 \
+# 	--title="[Antoine Schellenberger] RISK — solution OpenSource de contrôle parental facile et accessible." \
+# 	/srv/www/pses/archives/2017/antoine-schellenberger_risk-solution-opensource-controle-parental-facile-accessible.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-02T13:00:00.0+02:00 \
+# 	--title="[Sophie Gautier] Civic tech et bien commun" \
+# 	/srv/www/pses/archives/2017/sophie-gautier_civitech-bien-commun.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-02T14:00:00.0+02:00 \
+# 	--title="[Zenzla] Pas de vie privée sans « petits » sacrifices" \
+# 	/srv/www/pses/archives/2017/zenzla-vie-privee-petits-sacrifices.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-02T15:30:00.0+02:00 \
+# 	--title="[FFDN – La Quadrature & al] Le Paquet télécom, de la philosophie au droit (en passant par la technique)" \
+# 	/srv/www/pses/archives/2017/piks3l-agnes_paquet-telecom-philosophie-droit-technique.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-02T17:00:00.0+02:00 \
+# 	--title="[Collectif Emmabuntüs] Emmabuntüs, l’informatique libre et éthique pour tous" \
+# 	/srv/www/pses/archives/2017/emmabuntus-informatique-libre-ethique.webm
+# PYTHONPATH=. python bin/youtube-upload \
+# 	--default-language=fr \
+# 	--default-audio-language=fr \
+# 	--playlist=2017 \
+# 	--recording-date=2017-07-02T18:00:00.0+02:00 \
+# 	--title="[Ag3m / Zora / Hypsoline] Le Reset, hackerspace féministe" \
+# 	/srv/www/pses/archives/2017/ag3m-zora-hypsoline_reset-hackerspace-feministe.webm
