@@ -30,7 +30,7 @@
 						<div class="content">
 							<div class="inner">
 								<h2>Pas Sage en Seine</h2>
-								<h3>$CONFTITLE</h3>
+								<h3 id="p0">$$CONFTITLE$$</h3>
 								<noscript>
 									<div style="background-color: red; padding: 5px">
 										JavaScript est nécessaire à l'execution du WebPlayer, deux options s'offrent à vous :
@@ -52,9 +52,9 @@
 						<article id="VLC">
 							<h3>Uri à coller dans un lecteur (VLC, mplayer...)</h3>
 							<ul>
-								<li>RTMP : <a href"rtmp://rtmp.passageenseine.fr">rtmp://rtmp.passageenseine.fr</a></li>
 								<li>HLS : <a href="http://live.passageenseine.fr/live/manifest.3m8u">hls+http://live.passageenseine.fr/live/manifest.3m8u</a></li>
 								<li>DASH : <a href="http://live.passageenseine.fr/live/manifest.mpd">dash+http://live.passageenseine.fr/live/manifest.mpd</a></li>
+								<li>RTMP : <a href"rtmp://rtmp.passageenseine.fr">rtmp://rtmp.passageenseine.fr</a></li>
 							</ul>
 						</article>
 						<article id="youtube">
@@ -82,13 +82,21 @@
 						</article>
 						<article id="audio">
 							<h3>Flux audio</h3>
-							<p><a href="iceast://audio.passageenseine.fr">https://twitch.tv/PSES_Festival</a></p>
+							<p><a href="icecast://audio.passageenseine.fr">icecast://audio.passageenseine.fr</a></p>
 						</article>
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-
+						<article id="prog">
+							<h3>Prochaines conférences :</h3>
+							<ul>
+								<li id="p1">$$title$$ - $$name$$ à $$date$$</li>
+								<li id="p2">$$title$$ - $$name$$ à $$date$$</li>
+								<li id="p3">$$title$$ - $$name$$ à $$date$$</li>
+								<li id="p4">$$title$$ - $$name$$ à $$date$$</li>
+							</ul>
+						</article>
 					<ul class="icons">
 						<span><a target="_blank" href="https://twitter.com/passageenseine"><img alt="twitter" src="assets/images/twitter.png" height="30" /></a></span>
 						<span><a target="_blank" href="https://ecurie.social/@PasSageEnSeine"><img alt="mastodon" src="assets/images/mastodon-white.png" height="30" /></a></span>
