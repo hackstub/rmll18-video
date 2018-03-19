@@ -1567,6 +1567,10 @@
 		text-align: center;
 	}
 
+		span a {
+			border-bottom: none;
+		}
+
 		#footer .copyright {
 			letter-spacing: 0.2rem;
 			font-size: 0.6rem;
