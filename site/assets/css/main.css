@@ -1567,7 +1567,7 @@
 		text-align: center;
 	}
 
-		a {
+		#footer a {
 			border-bottom: none;
 		}
 
@@ -1580,7 +1580,7 @@
 
 		}
 
-		p.copyright a {
+		#footer p.copyright a {
 			border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		}
 
