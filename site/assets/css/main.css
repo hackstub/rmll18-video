@@ -1567,7 +1567,11 @@
 		text-align: center;
 	}
 
-		#footer a {
+		#footer ul.icons a {
+			border-bottom: none;
+		}
+
+		#footer #partners a {
 			border-bottom: none;
 		}
 
@@ -1578,10 +1582,6 @@
 			margin-bottom: 0;
 			text-transform: uppercase;
 
-		}
-
-		#footer p.copyright a {
-			border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		}
 
 		body.is-article-visible #footer {
