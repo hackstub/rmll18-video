@@ -1,0 +1,796 @@
+2017-06-29:
+  talks:
+  - author: Élus Choisyens & Équipe PSES
+    title: Ouverture du festival
+    description:
+    from: '11:00'
+    to: '12:00'
+    place: :mediatheque
+  - author: Openpony
+    twitter: "@openpony"
+    url:
+    title: Bienveillance mon cul
+    description: |-
+      Le terme bienveillance est souvent mal employé dans les métiers IT et associatifs.
+      La bienveillance ne doit pas empêcher de dire franchement les choses aux autres, au contraire !
+    from: '12:00'
+    to: '13:00'
+    place: :mediatheque
+  - author: Xenthys
+    twitter: "@TheXenthys"
+    url:
+    title: 'Certificats numériques et autorités de certification : de quoi s’agit-il
+      ?'
+    description: À l’heure actuelle, la sécurité numérique est l’un des sujets les
+      plus en vogue. Les autorités de certification, délivrant les fameux « certificats
+      SSL », sont alors omniprésentes et permettent à la majeure partie des sites web
+      de fièrement arborer un HTTPS à côté d’un cadenas vert dans votre navigateur.
+      Qui sont ces autorités ? Comment sont-elles organisées ? Que sont ces certificats
+      numériques et comment est-ce qu’ils fonctionnent ? C’est ce que nous vous proposons
+      de vulgariser et découvrir ensemble !
+    from: '13:00'
+    to: '14:00'
+    place: :mediatheque
+  - author: aeris
+    twitter: "@aeris22"
+    url: https://imirhil.fr/
+    title: Comment powned une application bancaire en 30 min
+    description: |-
+      Comment monter une infrastructure en vue de rétro-ingénierer une application bancaire : hostapd, dhcpd, mitmproxy, iptables, dns menteur…
+      (Et pourquoi vous devriez vraiment faire attention au réseau auquel vous vous connectez)
+    from: '14:00'
+    to: '15:00'
+    place: :mediatheque
+  - author: Drapher-Epimae
+    twitter: "@drapher"
+    url:
+    title: 'Auto-construire une maison solaire autonome bioclimatique : c’est possible,
+      on l’a fait'
+    description: Nous avons auto-construit notre maison autonome à l’énergie solaire
+      (sans ErdF) raccordée au réseau Internet en mode associatif. Comment se réapproprier
+      la technique, la production et sa citoyenneté dans une démarche d’autonomie
+      ?
+    from: '15:00'
+    to: '16:00'
+    place: :mediatheque
+  - author: SySt
+    twitter: https://twitter.com/le_cecil
+    url:
+    title: 'Publicité et surveillance publicitaire en ligne : un combat à gagner'
+    description: |-
+      Nous sommes à un moment clef concernant la publicité en ligne.
+
+      L’objectif de cette intervention est de réaliser un bref rappel de ce qu’est la publicité et ses dangers « classiques » et de rappeler que l’univers numérique est particulièrement propice à une surveillance massive des citoyens par des acteurs privés.
+    from: '16:00'
+    to: '17:00'
+    place: :mediatheque
+  - author: Liot
+    twitter: "@lionelallorge"
+    url: https://www.lunerouge.org/
+    title: Réalisation de photos libres pour Wikipédia
+    description: Participez à Wikipédia en prenant des photos et en les publiant
+      sous licences libres. Les thèmes, les bonnes pratiques, les concours seront
+      passés en revue.
+    from: '17:00'
+    to: '18:00'
+    place: :mediatheque
+  - author: Okhin
+    twitter: "@okhin"
+    url: https://about.okhin.fr
+    title: Making datalove for fun and … profit ?
+    description: |-
+      Comment sont fabriqués les ulcères de Manuel Valls à la Quadrature du Net ? Plongée en eau profonde dans la fabrique de Datalove et la boîte à outils libre de LQDN, comment et pourquoi ces outils existent, et quels sont leurs impacts sur la santé de nos ministres.
+      Tout, vous saurez tout sur ces outils et comment filer un coup de main.
+    from: '18:00'
+    to: '19:00'
+    place: :mediatheque
+  - author: gapz
+    twitter:
+    url: https://residus.eu.org
+    title: 'Surveillance et cryptographie: peut-on faire confiance aux courbes elliptiques
+      ?'
+    description: |-
+      Les courbes elliptiques sont aujourd’hui une des pierres angulaires
+      de l’usage massif de la cryptographie, notamment par l’usage quotidien de
+      https. Nous allons voir au travers d’exemples concrets (Dual_EC_DRBG), combien
+      la confiance dans ces nouveaux standards nécessite aujourd’hui un élément auparavant
+      délaissé: la transparence.
+    from: '19:00'
+    to: '20:00'
+    place: :mediatheque
+  - author: Pascal Nicolle
+    twitter: "@debatlab / @pascalnicolle"
+    url: https://www.linkedin.com/in/pascal-nicolle-08775a/
+    title: 'L’ouverture des données publiques des concertations et débats : un enjeu
+      démocratique'
+    description: |-
+      Un débat public, une consultation, une concertation, une enquête
+      publique… permettent d’analyser l’opinion publique, de comprendre les points
+      de vue en présence, les facteurs de blocage. Outre son intérêt pour les scientifiques
+      et les professionnels, l’ouverture des données de ces débats publics est aussi
+      utile pour le citoyen qui est d’autant plus désireux de s’exprimer qu’il constate
+      que son avis sera pris en compte et traité ; la restitution pédagogique des
+      résultats de la consultation est un facteur de motivation de la participation.
+      Pour cela, un dispositif d’analyse professionnalisé est nécessaire pour offrir
+      4 garanties-clés : capacité de traitement, exhaustivité, impartialité, traçabilité.
+      Les professionnels de la concertation doivent pouvoir accès aux verbatims et
+      aux données de ces débats. C’est un enjeu démocratique mais aussi un enjeu
+      d’efficacité car c’est aussi un moyen de capitaliser, pour que chaque nouveau
+      débat alimente un baromètre permanent de l’opinion publique.
+    from: '20:00'
+    to: '21:00'
+    place: :mediatheque
+  workshops:
+  - author: Obi
+    twitter: "@Rolisteam"
+    url: http://www.renaudguezennec.eu/
+    title: Découverte du QML avec Rolisteam
+    description: |-
+      Rolisteam propose depuis la version 1.8, un éditeur de fiche de personnage: RCSE.
+      En gros, c’est un outil qui permet de dessiner sa fiche et de générer le code QML associé.
+
+      Nous allons partir de cela pour comprendre les bases du langage QML et découvrir le langage.
+
+      L’objectif de l’atelier est d’expliquer les fondements du langage QML, comment
+      travailler avec le QML, démontrer les capacités du langage et réfléchir comment
+      RCSE peut être amélioré pour remplir ces objectifs.
+    from: '11:00'
+    to: '13:00'
+    place: :town
+  - author: Collectif Café Vie Privée
+    twitter:
+    url:
+    title: Cryptoparties
+    description: Ateliers d’initiation et de formation à l’hygiène numérique
+    from: '14:00'
+    to: '16:00'
+    place: :town
+  - author: Obi
+    twitter: "@Rolisteam"
+    url: http://www.renaudguezennec.eu/
+    title: Formation QML avec Rolisteam
+    description: |-
+      Rolisteam propose depuis la version 1.8, un éditeur de fiche de personnage: RCSE.
+
+      En gros, c’est un outil qui permet de dessiner sa fiche et de générer le code QML associé.
+
+      Nous allons partir de cela pour comprendre les bases du langage QML et découvrir le langage.
+      L’objectif de l’atelier est d’expliquer les fondements du langage QML,
+      comment travailler avec le QML, démontrer les capacités du langage et
+      réfléchir comment RCSE peut être améliorer pour remplir ces objectifs.
+    from: '14:00'
+    to: '16:00'
+    place: :town
+2017-06-30:
+  talks:
+#  - author: vev
+#    twitter:
+#    url:
+#    title: Plaidoyer pour une plateforme d’inventivité collaborative
+#    description: |-
+#      Je vous présenterai l’origine du projet libreidea.org, son fonctionnement, l’importance de rassembler et de classifier toutes les problématiques connues de tous domaines scientifiques et mes actions passées, présentes et à venir. Puis j’aborderai le cœur de cette conférence par la pléthore d’arguments en faveur d'un tel projet. Nous terminerons par un échange.
+#    from: '11:00'
+#    to: '12:00'
+#    place: :mediatheque
+  - author: Thierry Stoehr
+    twitter: '@thierrystoehr'
+    url: formats-ouverts.org
+    title: 'Orgmode : tout faire en mode texte'
+    description: |-
+      Orgmode est un outil au format texte pour tout faire, des listes aux rapports en passant par les calendriers, les tableaux et bien d’autres possibilités.
+    from: '11:00'
+    to: '12:00'
+    place: :mediatheque
+  - author: Audrey Jougla
+    twitter: "@AudreyJougla"
+    url: http://www.animaldelaboratoire.com/
+    title: La face cachée de l’expérimentation animale
+    description: |-
+      Jeune association radicale et abolitionniste, Animal Testing a
+      pour vocation de mener des enquêtes sur l’expérimentation animale pour dénoncer
+      cette pratique et sensibiliser le grand public à la réalité vécue par les animaux
+      de laboratoire. Les chiens utilisés par le Téléthon, les singes détenus dans
+      le sous-sol d’un hôpital parisien : les images révélées par l’association surprennent
+      encore en 2017, autant les médias que la société civile.
+
+      Comment travaille-t-on, avec qui, quelles sont nos valeurs, que dénonce-t-on,
+      pourquoi et dans quels buts ? Qu’en est-il de l’expérimentation animale aujourd’hui
+      en France et en Europe ?
+
+      Audrey Jougla, auteur de l’enquête « Profession : animal de laboratoire »
+      (Éditions Autrement) et fondatrice de l’association, partagera avec vous cette
+      méthode de dénonciation de la souffrance animale, inédite dans ce domaine très
+      particulier et particulièrement méconnu du grand public comme des vegans : celui
+      de la vivisection et des laboratoires qui la pratiquent.
+    from: '12:00'
+    to: '13:00'
+    place: :mediatheque
+  - author: piks3l
+    twitter: "@ToSDR"
+    url: https://tosdr.org
+    title: Lie to me — cliquer, c’est déjà accepter
+    description: |-
+      Le projet « Terms of Service;Didn't » a pour but de répondre au plus grand mensonge d’Internet : « oui, j’ai bien lu les conditions générales d’utilisation », en tentant de rendre les CGU de services compréhensibles. Projet qui a connu une belle réussite à son lancement mais en 2017, avec l’Internet des apps, des smartphones, est-ce que les défis restent les mêmes ? Que pouvons-nous faire en tant qu’utilisateurs et citoyens pour résoudre ce problème qui met notre vie privée et nos données personnelles en danger ?
+
+      Entre reboot, rebuild et tl;dr, vous n’accepterez plus jamais les CGU comme avant.
+    from: '13:00'
+    to: '14:00'
+    place: :mediatheque
+  - author: Liot
+    twitter: "@lionelallorge"
+    url: https://www.lunerouge.org/
+    title: Montage vidéo libre
+    description: Présentation du montage vidéo avec des logiciels libres, particulièrement
+      avec Kdenlive, pour produire des vidéos dans des formats ouverts.
+    from: '14:00'
+    to: '15:00'
+    place: :mediatheque
+  - author: Anthony Masure
+    twitter: "@anthonymasure"
+    url: http://www.anthonymasure.com
+    title: Back Office, une nouvelle revue de recherche entre design graphique et
+      pratiques numériques
+    description: |
+      Back Office est une nouvelle revue de recherche qui traite des rapports qu’entretiennent design graphique et numérique et explore les processus de création en jeu dans la diversité des médias et des pratiques numériques contemporaines. Cette publication est annuelle, multisupports, et bilingue français/anglais
+
+      Le premier numéro, intitulé « Faire avec », sorti en février 2017, interroge les notions d’outil, d’appareil, d’instrument dans le design. Les retours positifs des lecteurs et des volumes de vente nous permettent de nous projeter d’ores et déjà sur la suite, avec un deuxième numéro prévu début 2018 autour des notions de tri et de classement des informations et des données.
+
+      Dans le cadre de Pas Sage en Seine, nous aimerions faire connaître ce projet à une communauté soucieuse des enjeux du numérique en insistant sur l’importance des rapprochements entre designers et programmeurs et de la culture et de l’histoire du numérique, champs trop peu présents dans le paysage éditorial francophone.
+    from: '15:00'
+    to: '16:00'
+    place: :mediatheque
+  - author: Shaft
+    twitter: "@JohnShaftFr"
+    url: https://www.shaftinc.fr/
+    title: DNS et vie privée
+    description: En 30 ans, le DNS s’est imposé comme une brique essentielle du Net.
+      Il n’est guère d’activités en ligne qui ne commencent par une requête DNS. Comme
+      tout protocole ancien, ce dernier n’a pas été pensé en prenant en compte des
+      considérations liées à la vie privée or il en dit beaucoup sur notre activité
+      en ligne. Il faudra attendre les révélations Snowden pour que les choses commencent
+      à bouger. Petit état des lieux du problème et des solutions qui commencent à
+      émerger.
+    from: '16:00'
+    to: '17:00'
+    place: :mediatheque
+  - author: pbondoer
+    twitter: "@pbondoer"
+    url: https://bondoer.fr
+    title: CryptPad, l’éditeur collaboratif chiffré
+    description: |-
+      Venez découvrir CryptPad, un éditeur collaboratif Zero Knowledge. Tout ce que vous écrivez est chiffré, et cela en temps réel. Vous n’avez plus à faire confiance qu’on ne lira pas vos données… nous ne pouvons pas.
+
+      Pensez à amener un ordinateur/tablette/smartphone, il y aura une petite démonstration intéractive à la fin !
+    from: '17:00'
+    to: '18:00'
+    place: :mediatheque
+  - author: Tristan Nitot
+    twitter: "@nitot"
+    url: https://standblog.org/
+    title: Cozy V3 - Reprendre la main sur nos données personnelles
+    description: |-
+      Face aux data-prédateurs que sont les géants de l’Internet, la
+      multiplication des offres en « Software as a Service » qui réduisent à néant
+      la vie privée et la place du logiciel libre dans nos vies (et donc limitent
+      nos libertés), il faut agir.
+
+      Depuis plusieurs années, le Cozy Cloud travaille sur ce sujet et s’apprête
+      à sortir une toute nouvelle version, la V3 (encore en bêta), pour que chacun
+      puisse reprendre ses données en main avec du logiciel Libre.
+      On y présentera cette nouvelle version dont la partie serveur a été réécrite
+      entièrement. Il parait même qu’il sera possible d’obtenir une instance de test
+      à cette occasion ! ;-)
+    from: '18:00'
+    to: '19:00'
+    place: :mediatheque
+  - author: Nirem
+    twitter:
+    url:
+    title: Témoignage d’un atypique, ancien de l’administration
+    description: |-
+      J’aimerais présenter mon expérience de l’administration, et les
+      diverses péripéties qui m’ont amené à découvrir ma surdouance et mon syndrome
+      d’Asperger. Ce témoignage sera intéressant pour tous ceux qui ne connaissent
+      pas l’administration de l’intérieur, et qui souhaiteraient en savoir plus
+      sur ses pratiques. Ingénieur de formation, j’ai travaillé en tant qu’expert
+      numérique, puis sur des questions de régulation au sein d’une autorité sectorielle.
+    from: '19:00'
+    to: '20:00'
+    place: :mediatheque
+  - author: Jean-Luc Millet
+    twitter:
+    url:
+    title: Présentation d’extraits du DVD Histoire des immigrations en France
+    description: La section de la LDHse anime un ciné-débat à partir du DVD Histoire
+      des immigrations en France sur les étrangers dans la résistance (1939-1945).
+    from: '19:00'
+    to: '21:00'
+    place: :royal
+  - author: Malicia
+    twitter: "@maliciarogue"
+    url: http://blog.hatewasabi.info
+    title: 'La face cachée d’Internet : saisissons-nous vraiment les enjeux du numérique
+      ?'
+    description: |-
+      Fini le temps des études cherchant à estimer le temps qu’on passe connecté à Internet. L’interaction connectée est comme boire de l’eau : vitale et quotidienne. Mais est-ce que la production des outils et des moyens de cette interaction connectée suivent niveau qualité et sécurité ? À peine : les calendriers de mise en prod irréalistes, le délitement de la fonction de contrôle qualité/intégrateur, la pression d’une industrie digitale (sic) qui sacrifie la sécurité des applications au profit du bénéfice potentiellement perçu, la gadgétisation de notre quotidien via The Internet of Ransomware Things, aussi connu sous le sigle IoT… sont seulement quelques exemples de l’insécurité qui guette notre vie connectée.
+
+      Avec cette intervention, je souhaite revenir sur les problématiques soulignées ci-dessus et abordées dans mon livre (« La face cachée d’Internet ») avec un angle gouvernance de la sécurité. En effet, il ne s’agit pas d’aborder la problématique avec anxiété ou fatalisme, mais à chercher la meilleure façon de faire saisir les enjeux de cette connexion omniprésente par le plus grand nombre.
+    from: '20:00'
+    to: '21:00'
+    place: :mediatheque
+  workshops:
+  - author: Seejayer
+    twitter: "@seejayer"
+    url: github.com/seejayer
+    title: 'Signothèque : qu’est-ce-que c’est ?'
+    description: |-
+      Signothèque : une bibliothèque de signes universelle, vectorielle
+      et libre. Il faut développer un éditeur de signes et une infrastructure collaborative
+      autour. Pas codeur ? Pratiquant la LSF, graphiste, animateur ou maker, toutes
+      vos expériences et vos idées sont bienvenues.'
+    from: '10:00'
+    to: '12:00'
+    place: :town
+  - author: Collectif Café Vie Privée
+    twitter:
+    url:
+    title: Cryptoparties
+    description: Ateliers d’initiation et de formation à l’hygiène numérique
+    from: '14:00'
+    to: '16:00'
+    place: :town
+  - author: mex
+    twitter: "@coopcycle"
+    url:
+    title: À la reconquête des plateformes ?
+    description: |-
+      Nous souhaitons présenter le logiciel de plateforme logistique
+      open-source (Peer Production License) sur lequel nous travaillons, CoopCycle.
+      Plus généralement, nous aborderons la démarche, ainsi que les enjeux :
+      Quels choix techniques et éthiques dans la conception d’une plateforme réservée aux
+      coopératives ?
+      Face à l’ubérisation du social, le modèle coopérativiste peut-il
+      s’appliquer aux plateformes collaboratives, et présenter une alternative au
+      capitalisme ?
+    from: '16:00'
+    to: '18:00'
+    place: :town
+2017-07-01:
+  talks:
+  - author: Sangokuss
+    twitter: "@SVTux"
+    url: https://yoda.nohost.me
+    title: Framinetest, détournons le bac à sable !
+    description: |-
+      Le Framachin de la rentrée est un jeu… Sérieux ! Et il se nomme Framinetest ! Basé sur le logiciel libre Minetest, il s’agit d’un jeu en réseau de type « bac à sable » (ou sandbox, c’est-à-dire ressemblant au célèbre Minecraft) que nous détournons pédagogiquement.
+      Mixant coopération et collaboration mais initialement un simple jeu en réseau, nous le détournons de son rôle initial (c’est le « serious gaming ») pour en faire un outil pédagogique. En résumé, une infinité d’applications pédagogiques !
+    from: '10:00'
+    to: '11:00'
+    place: :mediatheque
+  - author: Winael
+    twitter: "@Winael"
+    url:
+    title: IoT, Fog Computing et Objets-ouverts-aux-applications, Comment rendre
+      les objets connectés un peu plus intelligents
+    description: Après la mode des objets connectés au cloud et les dérives qui
+      en découlent, l’architecture IoT est en pleine mutation vers un brumeux Fog
+      Computing. Venez comprendre les avantage de cette architecture distribuée apportant
+      de l’intelligence au plus proche des objets
+    from: '11:00'
+    to: '12:00'
+    place: :mediatheque
+  - author: Aleks & ljf
+    twitter:
+    url:
+    title: Construire l’Internet Du Futur™ en contribuant à Yunohost
+    description: YunoHost est une solution pour rendre accessible l’auto-hébergement
+      au plus grand nombre et ainsi favoriser la décentralisation d’Internet. Après
+      une présentation des objectifs du projet, de ses potentialités et de son futur,
+      nous vous montrerons les multiples façons de contribuer au projet, que ce soit
+      en documentant, traduisant, discutant, gribouillant, codant, designant, administrant,
+      rigolant, packageant des trucs… Bref, en tapotant frénétiquement sur votre
+      clavier !
+    from: '12:00'
+    to: '13:00'
+    place: :mediatheque
+  - author: Laurent Chemla
+    twitter: "@laurentchemla"
+    url:
+    title: Caliopen, pour aller plus loin ensemble
+    description: |-
+      Le projet Caliopen, agrégateur de correspondance privée, a reçu fin 2016 une subvention qui lui permet d’avoir une équipe salariée et des dates de releases.
+
+      Il lui manque encore toute une dimension, qui ne pourra venir que d’une implication plus forte de la communauté : une structure associative chargée entre autres de labelliser les services qui l’utiliseront.
+
+      Nous souhaitons trouver des gens motivés par le projet, et qui souhaitent créer l’association, lancer un crowdfunding, et à terme devenir Caliopen.
+    from: '13:00'
+    to: '14:00'
+    place: :mediatheque
+  - author: Daboloskov
+    twitter: "@Daboloskov"
+    url: www.daboloskov.com
+    title: 'Les Daocraties : une nouvelle forme de gouvernance'
+    description: |-
+      Si la gouvernance à l’échelle d’un pays est laissé à un panel « d’experts » qui prennent les décisions en fonction de leur intérêt et non de celui de l’intérêt général, est-il possible de garder l’avantage de l’expertise de cette élite sans que celle-ci n’en détourne le concept initiale ?
+
+      La solution pourrait se trouver au sein des marchés prédictifs distribués, Smart Contract permis par des protocoles de registres distribués où chaque Daoïste peut participer directement à la prise de décision en société.
+    from: '14:00'
+    to: '15:00'
+    place: :mediatheque
+  - author: Lunar
+    twitter:
+    url: https://informatique-ou-libertes.fr/
+    title: Conférence gesticulée « Informatique et libertés ? » suivi de son atelier
+    description: |-
+      Travailler, s’informer, jouer, vivre ses amitiés, se soigner,
+      consommer ou se révolter… Quel contrôle avons-nous sur ces ordinateurs devenus
+      omniprésents ?
+      À qui facilitent-ils vraiment la vie ?
+      L’apparente complexité technique cache des enjeux politiques.
+      Lunar partage dans sa conférence vingt ans d’expérience technique et
+      militante pour nous aider à y voir clair et à nous organiser.
+
+      Qu’est-ce qu’une conférence gesticulée ?
+      Un outil d’éducation populaire (mi-spectacle, mi-conférence) qui mêle autobiographie,
+      analyses et théories. Un mélange de choses vécues, comprises ou apprises pour transmettre
+      des savoirs politiques.
+
+      La conférence est suivie d’un atelier : un moment pour penser et pratiquer ensemble
+      une plus juste place de l’informatique dans nos vies.
+    from: '14:00'
+    to: '16:00'
+    place: :royal
+  - author: Wikidébats (Manu)
+    twitter: "@Wikidebats"
+    url:
+    title: Wikidébats, une encyclopédie de débats
+    description: |-
+      À l’heure de la démocratie 2.0, il n’existe pas de site d’information
+      rassemblant, pour un débat donné, l’ensemble des arguments « pour » et « contre »,
+      de façon claire et structurée. Wikidébats est un projet inspiré de Wikipédia
+      qui répond à un besoin bien précis : offrir un espace de confrontation des opinions
+      qui ne prenne pas la forme d’un forum de discussion, mais bien d’une encyclopédie.
+      Neutre, impersonnelle et libre de droits, cette nouvelle encyclopédie pourrait
+      devenir le chaînon manquant de notre démocratie.
+    from: '15:00'
+    to: '16:00'
+    place: :mediatheque
+  - author: La Quadrature du Net (Agnès, Arthur)
+    twitter:
+    url:
+    title: ePrivacy, le GDPR, tout ce que vous avez toujours voulu savoir sur l’UE
+      et les données personnelles
+    description: Nous nous sommes coordonnés pour vous proposer une conf sur le règlement
+      ePrivacy en cours de négociation au PE, et sur le GDPR, déjà adopté, mais qui
+      entrera en vigueur dans un an (c’est la panique à bord, tout le monde essaie
+      de se mettre en conformité).
+    from: '16:00'
+    to: '17:00'
+    place: :mediatheque
+  - author: Exégètes Amateurs
+    twitter: "@lesexegetes"
+    url:
+    title: Présentation des Exégètes Amateurs
+    description: Présentation dynamique du groupe d’action juridique des « Exégètes
+      Amateurs », pour la défense des libertés sur internet et la lutte contre la surveillance
+      généralisée !
+    from: '17:00'
+    to: '18:00'
+    place: :mediatheque
+  - author: Projet Arcadie (Tris)
+    twitter: "@Projet_Arcadie"
+    url: https://hackersrepublic.org
+    title: La petite corruption du quotidien
+    description: Comment quelqu’un comme François Fillon, Patrick Balkany ou même
+      des familles comme Bompard, Joissains ou Boisserie arrivent-ils à passer entre
+      les mailles du filet pendant des années ? Pourquoi nos élus ne sont pas « encouragés »
+      à être exemplaires ? Comment participons-nous à la banalisation de la corruption
+      et surtout, comment peut-on y mettre fin ?
+    from: '18:00'
+    to: '19:00'
+    place: :mediatheque
+  - author: Thierry Stoehr
+    twitter: "@thierrystoehr"
+    url: formats-ouverts.org
+    title: Il faut interdire le format papier
+    description: |-
+      Le papier est un format qui représente de trop grands dangers dans
+      le monde numérique actuel : au moins 42 raisons pour l’interdire.
+    from: '19:00'
+    to: '20:00'
+    place: :mediatheque
+  - author: Jean-Luc Millet
+    twitter:
+    url:
+    title: Présentation d’extraits du DVD Histoire des immigrations en France
+    description: |-
+      La section de la LDHse anime un ciné-débat à partir du DVD Histoire
+      des immigrations en France sur l’accueil des migrants 2000 à 2017.
+    from: '19:00'
+    to: '21:00'
+    place: :royal
+  - author: Malicia / Fred Pailler
+    twitter: "@maliciarogue"
+    url: https://blog.hatewasabi.info
+    title: Le sexe à l'heure du numérique
+    description: |-
+      Des premiers sites de rencontres aux sextoys connectés : comment
+      le numérique change-t-il notre rapport au sexe ? Cette intervention, au croisement
+      de la sociologie et de la technique (dépiautage d’un ou deux sextoys connectés),
+      pose autant la question de nos interactions que de notre vie privée.
+    from: '20:00'
+    to: '21:00'
+    place: :mediatheque
+  workshops:
+  - author: SySt
+    twitter: https://twitter.com/le_cecil
+    url:
+    title: Présentation de l’association « CECIL » de ses activités et de ses perspectives
+    description: Bien que le CECIL soit une association assez ancienne (2008) et
+      qu’elle ait différentes actions et un ancrage réel dans le paysage « informatique
+      et libertés/société ». Elle reste méconnue aussi bien du grand public mais également
+      même du milieu hacker/libriste. L’objectif de cette conférence est de présenter
+      ces actions actuelles (interventions diverses, guide de survie des aventuriers
+      d’Internet, EducNum, participation active à l’Observatoire des libertés et du
+      Numérique) que ses projets en cours (exposition pour protection de ses libertés
+      en ligne, développement des activités de formation et de transmission sur les
+      thématiques du centre…) ainsi que des perspectives. L’objectif est
+      aussi bien de faire découvrir l’association que de susciter d’éventuelles adhésions
+      et trouver de nouveaux partenaires/soutiens à nos actions. L’intervention serait
+      réalisée par Sylvain Steer (bénévole au Cecil) et Maxime Lehmann (stagiaire
+      au Cecil pour cet été).
+    from: '12:00'
+    to: '14:00'
+    place: :town
+  - author: cm-t (arudy)
+    twitter: "@gerancet"
+    url:
+    title: Initiation au lockpicking
+    description: |-
+      Atelier d’initiation au crochetage :
+      L’art du crochetage est très utile dans le cadre de l’audit de sécurité de vos serrures !
+      Cet atelier sera un moment idéal pour apprendre à faire son premier crochetage peu importe son
+      age, mais convient aussi aux personnes confirmées qui souhaitent juste s’amuser
+      à tester de nouvelles serrures.
+    from: '10:00'
+    to: '12:00'
+    place: :town
+  - author: cm-t (arudy)
+    twitter: "@gerancet"
+    url:
+    title: Initiation au lockpicking
+    description: |-
+      Atelier d’initiation au crochetage.
+      L’art du crochetage est très utile dans le cadre de l’audit de sécurité de vos
+      serrures !
+      Cet atelier sera un moment idéal pour apprendre à faire son premier crochetage
+      peu importe son âge, mais convient aussi aux personnes confirmées qui souhaitent
+      juste s’amuser à tester de nouvelles serrures.
+    from: '14:00'
+    to: '16:00'
+    place: :town
+  - author: Laurent Chemla
+    twitter: "@laurentchemla"
+    url: https://caliopen.org
+    title: De l’industrialisation des métiers du Web et de la fin du Libre de garage.
+    description: |-
+      Tous les métiers tendent à s’industrialiser, en passant d’une culture « de garage » à une structure hyper-spécialisée.
+
+      Les exemples de l’aviation, ou de la bagnole, sont parlants : une petite communauté d’individus passionnés construisant tout eux-mêmes se transforme en usines, en départements moteur, design, marketing, commerciaux, en sous-traitants…
+
+      L’informatique, et le Web en particulier, suivent le même chemin. Et c’est un gros problème pour l’avenir des projets libres.
+    from: '14:00'
+    to: '15:00'
+    place: :hall
+  - author: Collectif Café Vie Privée
+    twitter:
+    url:
+    title: Cryptoparties
+    description: Ateliers d’initiation et de formation à l’hygiène numérique
+    from: '15:00'
+    to: '17:00'
+    place: :town
+  - author: Harmonia Amanda
+    twitter: "@Harmonia_Amanda"
+    url:
+    title: Wikidata, pourquoi, comment ?
+    description: Découvrir Wikidata, comment la réutiliser, comment l’améliorer ?
+    from: '16:00'
+    to: '18:00'
+    place: :hall
+  - author: Lunar
+    twitter:
+    url: https://informatique-ou-libertes.fr/
+    title: Atelier suite à la conférence gesticulée « Informatique et libertés ? »
+    description: |-
+      Travailler, s’informer, jouer, vivre ses amitiés, se soigner,
+      consommer ou se révolter… Quel contrôle avons-nous sur ces ordinateurs devenus
+      omniprésents ?
+      À qui facilitent-ils vraiment la vie ?
+      L’apparente complexité technique cache des enjeux politiques.
+      Lunar partage dans sa conférence vingt ans d’expérience technique et militante
+      pour nous aider à y voir clair et à nous organiser.
+
+      Qu’est-ce qu’une conférence gesticulée ?
+      Un outil d’éducation populaire (mi-spectacle, mi-conférence) qui mêle autobiographie,
+      analyses et théories. Un mêlange de choses vécues, comprises ou apprises pour transmettre
+      des savoirs politiques.
+
+      La conférence est suivie d’un atelier : un moment pour penser et pratiquer ensemble
+      une plus juste place de l’informatique dans nos vies.
+    from: '18:00'
+    to: '20:00'
+    place: :hall
+2017-07-02:
+  talks:
+  - author: Olivier Blond
+    twitter: "@olivierFJB"
+    url:
+    title: Capteurs citoyens de pollution de l’air
+    description: L’association Respire (www.respire-asso.org) a créé un capteur de
+      pollution de l’air en opensource. L’installation de ce type de capteur permet
+      aux citoyens d’accéder aux données locales, en continu, et d’initier des démarches
+      pour mieux comprendre la situation, mieux s’y adapter, et surtout améliorer
+      la situation.
+    from: '10:00'
+    to: '11:00'
+    place: :mediatheque
+  - author: Genma
+    twitter: "@genma"
+    url: https://blog.genma.fr
+    title: 4 ans de Degooglisons, c’est quoi la suite ?
+    description: Il y a 4 ans, Framasoft se lançait dans le pari fou de Degoogliser
+      Internet. 4 ans après, où en est-on, où va-t-on, que font les CHATONS, c’est
+      quoi les KITTENS ? Conférence pour le grand public comme les plus geeks car
+      nous sommes tou·tes concerné·es et impliqué·es dans ce beau projet !
+    from: '11:00'
+    to: '12:00'
+    place: :mediatheque
+  - author: Antoine Schellenberger
+    twitter:
+    url:
+    title: RISK — solution OpenSource de contrôle parental facile et accessible.
+    description: |-
+      Aujourd’hui Internet représente pour nos enfants à la fois une
+      opportunité et une menace si son accès n’est pas contrôlé. En tant que parent,
+      j’ai été vite confronté à ce paradoxe mais aussi très surpris de la pauvreté
+      des solutions de modération OpenSource permettant de filtrer la navigation.
+      Après avoir abordé les outils existants et leurs limitations je vous présenterai
+      RISK, la solution que j’ai développée et les raisons de ce choix. Enfin, j’illustrerai
+      sa simplicité d’installation en déployant son hotspot wifi sécurisé sur un raspberry.
+    from: '12:00'
+    to: '13:00'
+    place: :mediatheque
+  - author: Sophie Gautier
+    twitter: "@DemocracyOS_FR"
+    url:
+    title: Civic tech et bien commun
+    description: DemocracyOS est une plateforme open source de consultation en ligne
+      qui permet de prendre des décisions collectivement, en toute transparence. Née
+      en 2012 en Argentine, DemocracyOS est disponible en plus de 18 langues et a
+      été utilisée dans une dizaine de pays à des niveaux de gouvernement différents.
+      DemocracyOS encourage activement le développement d’une participation citoyenne
+      ouverte, collaborative et inclusive.
+    from: '13:00'
+    to: '14:00'
+    place: :mediatheque
+  - author: Zenzla
+    twitter: "@o0o_Zenzla_o0o"
+    url: https://zenzla.fr
+    title: Pas de vie privée sans « petits » sacrifices
+    description: |-
+      Peut-on aujourd’hui prétendre à une vie privée à l’air du tout numérique et de la consommation excessive des réseaux sociaux ? Peut-on échapper à la collecte générale des données privées et/ou personnelles sans y mettre le prix, sans faire de petites concessions, de petits sacrifices ? qu’il soit personnel, intellectuel ou financier ?
+      Nous avons tous quelque chose à cacher, mais le faire, devient un vrai parcours du combattant, et un casse-tête permanent
+    from: '14:00'
+    to: '15:00'
+    place: :mediatheque
+  - author: FFDN – La Quadrature & al (Quota, Piks3l, Agnès)
+    twitter:
+    url:
+    title: Le Paquet télécom, de la philosophie au droit (en passant par la technique)
+    description: |-
+      Deux conférences en une !
+      * une conf sur la philo, Kant, Habermas, avec un peu de télécoms dedans (enjeux sociétaux)
+      * une conf sur la campagne sur le paquet télécom et plus exactement sur le code européen des communications électroniques : les enjeux, les 1000 amendements, notre ennemie Pilar del Castillo, etc. (enjeux juridico-campagne)
+    from: '15:00'
+    to: '17:00'
+    place: :mediatheque
+  - author: Collectif Emmabuntüs
+    twitter: "@Emmabuntus"
+    url:
+    title: Emmabuntüs, l’informatique libre et éthique pour tous
+    description: |-
+      Présentation des actions du Collectif Emmabuntüs autour du projet
+      basé sur l’utilisation d’une distribution GNU/Linux nommée Emmabuntüs, développée
+      pour simplifier le reconditionnement des ordinateurs usagés issus du don aux
+      associations solidaires. Elle répond à deux autres objectifs: favoriser la découverte
+      de l’environnement Linux et prolonger la durée de vie du matériel informatique
+      pour réduire le gaspillage des matières premières lié à la surconsommation.'
+    from: '17:00'
+    to: '18:00'
+    place: :mediatheque
+  - author: Ag3m / Zora / Hypsoline
+    twitter: "@le_RESET"
+    url:
+    title: Le Reset, hackerspace féministe
+    description: Avec l’équipe du Reset, on aimerait présenter quelque chose autour
+      du hackerspace, et en particulier autour des questions d’intersections & de
+      rencontres entre communautés (féministes, queers, geeks…).
+    from: '18:00'
+    to: '19:00'
+    place: :mediatheque
+  workshops:
+  - author: cm-t (arudy)
+    twitter: "@gerancet"
+    url:
+    title: Initiation au lockpicking
+    description: |-
+      Atelier d’initiation au crochetage :
+      L’art du crochetage est très utile dans le cadre de l’audit de sécurité de vos serrures !
+      Cet atelier sera un moment idéal pour apprendre à faire son premier crochetage peu importe son
+      age, mais convient aussi aux personnes confirmées qui souhaitent juste s’amuser
+      à tester de nouvelles serrures.
+    from: '10:00'
+    to: '12:00'
+    place: :town
+  - author: Rachid Yahiaoui
+    twitter:
+    url:
+    title: Déployez vos web services REST sans code avec JAX-Y
+    description: Les web services forment une brique essentielle dans la composition des S.I modernes. Malgré cette position centrale, l’outillage permettant d’automatiser la mise en place de ces derniers est peu développé et nécessite encore de passer, même partiellement, par des phases manuelles de développement. Le projet open source JAX-Y ( Développé en java )  est un projet qui vous permet de publier sur le web et de façon sécurisée, des bases de données sous forme de web services REST, le tout, avec « zéro » ligne de code!
+    from: '13:00'
+    to: '14:00'
+    place: :town
+  - author: calimaq
+    twitter: "@calimaq"
+    url:
+    title: Préparons le Calendrier de l’Avent du Domaine Public 2018 !
+    description: Depuis 5 ans, le collectif SavoirsCom1 publie un Calendrier de l’Avent
+      du Domaine Public, qui signale tous les jours du mois de décembre, les auteurs
+      dont les oeuvres vont devenir librement réutilisables au 1er janvier suivant.
+      Nous proposons d’organiser à PSES un atelier pour préparer le prochain calendrier,
+      en recherchant les auteurs qui rejoindront les Communs de la connaissance en
+      2018.
+    from: '10:00'
+    to: '12:00'
+    place: :hall
+  - author: cm-t (arudy)
+    twitter: "@gerancet"
+    url:
+    title: Initiation au lockpicking
+    description: |-
+      Atelier d’initiation au crochetage:
+      L’art du crochetage est très utile dans le cadre de l’audit de sécurité de vos serrures !
+      Cet atelier sera un moment idéal pour apprendre à faire son premier crochetage peu importe
+      son âge, mais convient aussi aux personnes confirmées qui souhaitent juste s’amuser
+      à tester de nouvelles serrures.
+    from: '14:00'
+    to: '16:00'
+    place: :town
+  - author: Sophie Barel
+    twitter: "@sophiebarel"
+    url: https://medium.com/@SophieB.
+    title: Dire et montrer le corps féminin
+    description: De la mise en scène de soi à la représentation politique de l’intime
+      sur les médias sociaux numériques.
+    from: '14:00'
+    to: '16:00'
+    place: :hall
+  - author: Collectif Café Vie Privée
+    twitter:
+    url:
+    title: Cryptoparties
+    description: Ateliers d’initiation et de formation à l’hygiène numérique
+    from: '15:00'
+    to: '17:00'
+    place: :town
+  - author: Delphine Malassingne
+    twitter: "@Nissone"
+    url: http://nissone.com/
+    title: Un pas de plus vers mon hygiène numérique
+    description: |-
+      Nous sommes de plus en plus intimement lié·es avec nos données numériques. Les enjeux concernant nos libertés et notre sécurité sont grandissants. Nous en sommes bien conscients et pourtant, protéger sa vie numérique n’est pas simple. On trouve de nombreux conseils d’experts, parfois pédagogiques, parfois condescendants et ce n’est pas évident de s’y retrouver.
+      Et si la première étape était justement ce constat, que c’est normal qu’on n’arrive pas à mettre en place tous ces conseils ? Et si, forts et fortes de ce constat, on se réunissait lors d’un atelier pour, ensemble et chacun à son niveau, faire un pas de plus dans la sécurité et l’hygiène de notre vie numérique.
+    from: '16:00'
+    to: '18:00'
+    place: :hall
