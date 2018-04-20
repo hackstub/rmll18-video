@@ -1,4 +1,4 @@
-window.setInterval(updateProg,5000);
+window.setInterval(updateProg,500000);
 
 async function updateProg(){
     var prog = await fetchProg()
