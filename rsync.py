@@ -105,6 +105,7 @@ class Cmd:
     @staticmethod
     def rsync(logger, *args):
         cmd = ["rsync", "-rv", "--partial", "--inplace", "--delete",
+               "--chown=stream:www-data", "--chmod=ug=rwX,o=rX",
                "-e", "ssh -o ControlMaster=no -o ControlPath=none"] \
               + list(args)
         return Cmd(logger, *cmd)
@@ -184,7 +185,7 @@ class Streams:
 if __name__ == "__main__":
     lock = threading.Event()
 
-    streams = Streams("rabbit:/var/www/live")
+    streams = Streams("rabbit.passageenseine.fr:/var/www/stream")
 
     def signal_handler(_1, _2):
         streams.stop()

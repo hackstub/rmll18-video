@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+require 'fileutils'
+
 # Preset:
 #    ultrafast
 #    superfast
@@ -25,17 +27,17 @@
 COMMON = {
 	audio: %w[
 		-c:a aac
+		-ar 48000
 	],
 	video: %w[
 		-c:v libx264 -crf 23 -preset superfast
-		-sc_threshold 0 -g 250 -keyint_min 250
+		-sc_threshold 0 -g 50 -keyint_min 25
 		-pix_fmt yuv420p
 	],
 	hls: %w[
 		-hls_time 10 -hls_list_size 5 -hls_flags delete_segments
 		-use_localtime 1
 		-movflags +faststart
-		-threads 8
 	]
 }
 HLS = {
@@ -43,7 +45,7 @@ HLS = {
 	video: COMMON[:hls] + COMMON[:audio] + COMMON[:video]
 }
 
-VIDEO = {
+OUTPUT = {
 	'audio' => HLS[:audio] + %w[
 		-b:a 192k
 		-vn
@@ -73,10 +75,10 @@ VIDEO = {
 	[k, v]
 end.to_h
 
-VIDEO.keys.each do |type|
+OUTPUT.keys.each do |type|
 	output = File.join 'stream', type
 
-	Dir.mkdir output unless Dir.exist? output
+	FileUtils.mkdir_p output unless Dir.exist? output
 
 	ts = File.join output, '*.ts'
 	ts = Dir[ts]
@@ -84,23 +86,20 @@ VIDEO.keys.each do |type|
 end
 
 timestamp = Time.now().strftime "%Y-%m-%dT%H:%M:%S"
-VIDEO['video'] = COMMON[:audio] + COMMON[:video] + [
-					# File.join('video', "#{timestamp}.ts")
-					'video/output.ts'
+OUTPUT['video'] = COMMON[:audio] + COMMON[:video] + [
+					File.join('video', "#{timestamp}.ts")
+					# 'video/output.ts'
 				]
+FileUtils.mkdir_p 'video' unless Dir.exist? 'video'
 
-# INPUT=( -re -i "${1}" )
-# INPUT=( -i ~/Workspace/pses/video/2017/output/zenzla-vie-privee-petits-sacrifices.webm )
+INPUT = [ '-re', '-r', '25', '-threads', '0', '-i', ARGV.first ]
 # INPUT=( -i udp://@localhost:9999 )
 # INPUT = %w[-f libndi_newtek -i ENDOR\ (OBS)]
-INPUT = %w[-f libndi_newtek -i COW\ (OBS)]
+# INPUT = %w[-f libndi_newtek -i COW\ (OBS)]
 
-# FFMPEG = 'ffmpeg'
-FFMPEG = './ffmpeg.sh'
+FFMPEG = 'ffmpeg'
+#FFMPEG = './ffmpeg.sh'
 
-OUTPUT = VIDEO.keys
-# OUTPUT = %w[video]
-
-cmd = [ FFMPEG, '-y' ] + INPUT + OUTPUT.collect { |c| VIDEO[c] }.flatten
+cmd = [ FFMPEG, '-y' ] + INPUT + OUTPUT.values.flatten
 puts cmd.join ' '
 exec *cmd
