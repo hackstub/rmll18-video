@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby
+require 'json'
+require 'yaml'
+require 'date'
+require 'time'
+require 'awesome_print'
+
+schedule = YAML.load_file '../../programme/config/2018.yml'
+now = Time.now
+now = Time.parse '2018-06-28T10:00'
+
+today = now.to_date
+
+locations = schedule[today]
+events = locations[:cinema]
+events.each do |event|
+	event[:from] = Time.parse event[:from], now
+	event[:to] = Time.parse event[:to], now
+end
+events.sort! { |a, b| a[:from] <=> b[:from] }
+
+prog = {}
+
+current = events.first { |t| event[:from] <= now < event[:to] }
+prog[:current] = "#{current[:title]} - #{current[:author]}"
+
+next_ = events.select { |e| now < e[:from] }.first 3
+prog[:next] = next_.collect { |e| "#{e[:title]} - #{e[:author]} à #{e[:from].strftime '%H:%M'}" }
+
+json = JSON.pretty_generate prog
+File.write 'prog.json', json

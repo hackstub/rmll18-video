@@ -406,4 +406,5 @@
 
 	});
 
+	var player = videojs('player');
 })(jQuery);

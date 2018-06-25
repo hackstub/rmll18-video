@@ -1,14 +1,22 @@
-window.setInterval(updateProg,500000);
+$(function() {
+	var current = $("#current");
+	var nexts = $("#next");
 
-async function updateProg(){
-    var prog = await fetchProg()
-    for (i=0 ; i<=4; i++){
-        document.getElementById("p"+i).innerHTML = prog.prog[i];
-        console.log("Program fetched");
-    }
-}
+	function updateProg() {
+		current.empty();
+		nexts.empty();
 
-async function fetchProg(){
-  const response  =  await fetch('prog.json');
-  return response.json();
-}
+		fetch("prog.json").then(function(response) {
+			response.json().then(function(json) {
+				console.log(json);
+				current.text(json["current"]);
+				json["next"].forEach(function(next) {
+					$("<li/>").text(next).appendTo(nexts);
+				});
+			});
+		});
+	}
+
+	window.setInterval(updateProg, 120000);
+	updateProg();
+});
