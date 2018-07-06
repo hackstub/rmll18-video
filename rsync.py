@@ -68,7 +68,7 @@ class Cmd:
             env = os.environ.update(env)
         cwd = self.__kwargs.pop("cwd", None)
 
-        self.__logger.log(" ".join(self.__args))
+        # self.__logger.log(" ".join(self.__args))
         self.__process = subprocess.Popen(self.__args,
                                           stdin=subprocess.PIPE,
                                           stdout=subprocess.PIPE,
@@ -91,7 +91,7 @@ class Cmd:
             thread.join()
         self.__process = None
 
-        self.__logger.log(" ".join(self.__args) + ": " + str(retcode))
+        # self.__logger.log(" ".join(self.__args) + ": " + str(retcode))
         if retcode:
             raise subprocess.CalledProcessError(retcode, self.__args)
 
@@ -104,7 +104,7 @@ class Cmd:
 
     @staticmethod
     def rsync(logger, *args):
-        cmd = ["rsync", "-rv", "--partial", "--inplace", "--delete",
+        cmd = ["rsync", "-r", "--info=name", "--partial", "--inplace", "--delete",
                "--chown=stream:www-data", "--chmod=ug=rwX,o=rX",
                "-e", "ssh -o ControlMaster=no -o ControlPath=none"] \
               + list(args)
@@ -164,6 +164,7 @@ class Stream(Loop):
 
 class Streams:
     NAMES = ["360p", "480p", "720p", "1080p", "audio"]
+#    NAMES = ["1080p"]
 
     def __init__(self, target):
         self.__streams = []
@@ -185,7 +186,7 @@ class Streams:
 if __name__ == "__main__":
     lock = threading.Event()
 
-    streams = Streams("rabbit.passageenseine.fr:/var/www/stream")
+    streams = Streams("rabbit:/var/www/stream/stream2")
 
     def signal_handler(_1, _2):
         streams.stop()

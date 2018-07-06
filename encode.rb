@@ -80,9 +80,9 @@ OUTPUT.keys.each do |type|
 
 	FileUtils.mkdir_p output unless Dir.exist? output
 
-	ts = File.join output, '*.ts'
-	ts = Dir[ts]
-	ts.each { |f| File.unlink f }
+#	ts = File.join output, '*.ts'
+#	ts = Dir[ts]
+#	ts.each { |f| File.unlink f }
 end
 
 timestamp = Time.now().strftime "%Y-%m-%dT%H:%M:%S"
@@ -92,14 +92,20 @@ OUTPUT['video'] = COMMON[:audio] + COMMON[:video] + [
 				]
 FileUtils.mkdir_p 'video' unless Dir.exist? 'video'
 
-INPUT = [ '-re', '-r', '25', '-threads', '0', '-i', ARGV.first ]
+# INPUT = [ '-re', '-r', '25', '-threads', '0', '-i', ARGV.first ]
 # INPUT=( -i udp://@localhost:9999 )
 # INPUT = %w[-f libndi_newtek -i ENDOR\ (OBS)]
-# INPUT = %w[-f libndi_newtek -i COW\ (OBS)]
+INPUT = %w[-threads 0 -f libndi_newtek -i GOAT\ (OBS)]
+# INPUT = %w[-threads 0 -re -r 25 -raw_format  -format_code Hp25 -video_input hdmi -audio_input embedded -f decklink -i DeckLink\ Mini\ Recorder]
 
-FFMPEG = 'ffmpeg'
-#FFMPEG = './ffmpeg.sh'
+# FFMPEG = 'ffmpeg'
+FFMPEG = './ffmpeg.sh'
 
-cmd = [ FFMPEG, '-y' ] + INPUT + OUTPUT.values.flatten
+output = ARGV
+output = OUTPUT.keys - %w[video] if output.empty?
+output = OUTPUT.values_at *output
+output = output.flatten
+
+cmd = [ FFMPEG, '-y' ] + INPUT + output
 puts cmd.join ' '
 exec *cmd
