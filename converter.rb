@@ -73,6 +73,9 @@ def ffmpeg(args)
 end
 
 def generate_svg_begin(conference)
+    """
+    Generate the begin svg from a template
+    """
 	name = conference[:file]
 	begin_ = File.join INPUT_DIRECTORY, 'begin.svg'
 	svg = File.join PASS1_DIRECTORY, "#{name}.svg"
@@ -121,6 +124,9 @@ def generate_video_begin(conference, duration=5)
 end
 
 def generate_video_end(duration=5)
+    """
+    Generate a video of 5s (by default) with the image end.svg
+    """
 	svg = File.join INPUT_DIRECTORY, "end.svg"
 	png = File.join PASS2_DIRECTORY, 'end.png'
 	video = File.join PASS2_DIRECTORY, 'end.webm'
@@ -131,6 +137,9 @@ def generate_video_end(duration=5)
 end
 
 def extract(conference)
+    """
+    Extract audio and video separately from the input video
+    """
 	name = conference[:file]
 
 	input = File.join INPUT_DIRECTORY, "#{name}.webm"
@@ -165,6 +174,9 @@ def extract(conference)
 end
 
 def merge(conference)
+    """
+    Merge audio and video together
+    """
 	name = conference[:file]
 
 	audio = File.join PASS1_DIRECTORY, "#{name}.wav"
